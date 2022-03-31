@@ -23,7 +23,7 @@
     display: block;
   }
   .con{
-    max-width: 1800px ;
+    max-width: 93%;
     margin: 0 auto ;
   } 
   
@@ -41,7 +41,7 @@
 
 .top-bar-wrap > .top-bar{
     width: 100%;
-    height: 40px;
+    height: 35px;
 
 }
 
@@ -59,13 +59,13 @@
 
 .top-bar-wrap > .top-bar > .top-bar-right > .text > ul{
 
-    margin-right: 50px;
+margin-right: 10px;
 
 }
 
 .top-bar-wrap > .top-bar > .top-bar-right > .text > ul > li{
     margin-right: 20px;
-    line-height: 40px;
+    line-height: 35px;
     font-size: 12px;
 }
 
@@ -87,6 +87,7 @@
     width: 100%;
     height: 60px;
     background-color: white;
+    /* position: fixed; */
 
 }
 
@@ -107,15 +108,16 @@
     line-height: 60px;
     transform: translatex(-50%);
     left: 50%;
-    position: fixed;
+    
 
 }
 
 .top-menu-wrap > .top-menu > .top-menu-mid > ul > li{
 
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     position: relative;
+    font-weight: 400;
 }
 
 
@@ -148,6 +150,133 @@
 
 .main-menu-wrap > .main-menu-image > .img-box{
   width: 100%;
-  padding-bottom: 50%;
+  padding-bottom: 45%;
 }
 
+.main-text-wrap{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.main-text-wrap > .main-text{
+
+}
+
+
+.main-text-wrap > .main-text > h1{
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -1px;
+}
+
+.main-text-wrap > .main-text > h6{
+  margin-top: 20px;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
+.main-text-wrap > .buy-btn{
+  margin-top: 50px;
+  width: 110px;
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  background-color: black;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.main-menu-wrap2{
+  width: 100%;
+}
+
+.main-menu-wrap2 > .main-menu-image2{
+  width: 100%;
+  position: relative;
+}
+
+.main-menu-wrap2 > .main-menu-image2 > .img-box{
+  margin-top: 180px;
+  width: 100%;
+  padding-bottom: 45%;
+}
+
+
+.main-text-wrap2{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.main-text-wrap2 > .main-text2{
+
+}
+
+
+.main-text-wrap2 > .main-text2 > h1{
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -1px;
+
+}
+
+.main-text-wrap2 > .main-text2 > h3{
+  font-weight: thin;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  
+}
+
+.main-text-wrap2 > .main-text2 > h6{
+  margin-top: 20px;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+
+
+
+.main-text-wrap2 > .buy-btn2{
+  margin-top: 50px;
+  width: 110px;
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  background-color: black;
+  transform: translate(-99%,-50%);
+  left: 50%;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.main-text-wrap2 > .more-btn{
+  margin-top: 50px;
+  width: 110px;
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  background-color: black;
+  transform: translate(-1%,-50%);
+  left: 50%;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 9999;
+}
