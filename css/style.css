@@ -23,7 +23,7 @@
     display: block;
   }
   .con{
-    max-width: 93%;
+    max-width: 98%;
     margin: 0 auto ;
   } 
   
@@ -45,16 +45,31 @@
 
 }
 
-.top-bar-wrap > .top-bar > .top-bar-left{
+.top-bar-wrap > .top-bar > .top-bar-left > svg{
 
-    
+    margin: 0 auto;
+    line-height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
 
 }
 
-.top-bar-wrap > .top-bar > .top-bar-right > text{
-    position: relative;
-    width: 300px;
-    height: 40px;
+.top-bar-wrap > .top-bar > .top-bar-left > svg:hover{
+  opacity: 0.5;
+}
+
+.top-bar-wrap > .top-bar > .top-bar-left > svg:nth-child(1){
+  margin-left: 35px;
+}
+
+.top-bar-wrap > .top-bar > .top-bar-right > .text{
+   
+}
+
+.top-bar-wrap > .top-bar > .top-bar-right > .text > ul > li:hover{
+  opacity: 0.7;
 }
 
 .top-bar-wrap > .top-bar > .top-bar-right > .text > ul{
@@ -173,7 +188,7 @@ margin-right: 10px;
 
 .main-text-wrap > .main-text > h6{
   margin-top: 20px;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: -1px;
 }
 
@@ -239,44 +254,217 @@ margin-right: 10px;
 
 .main-text-wrap2 > .main-text2 > h6{
   margin-top: 20px;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: -1px;
 }
 
+.main-text-wrap2 > .btn-box{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
 
 
-.main-text-wrap2 > .buy-btn2{
-  margin-top: 50px;
+.main-text-wrap2 > .btn-box > .buy-btn2{
   width: 110px;
   height: 45px;
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 25px;
   background-color: black;
-  transform: translate(-99%,-50%);
-  left: 50%;
   color: white;
   text-align: center;
   line-height: 45px;
-  position: absolute;
+  cursor: pointer;
+  z-index: 9999;
+  margin-right: 10px;
+}
+
+.main-text-wrap2 > .btn-box > .more-btn{
+  width: 110px;
+  height: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 45px;
   cursor: pointer;
   z-index: 9999;
 }
 
-.main-text-wrap2 > .more-btn{
-  margin-top: 50px;
+.main-menu-wrap3{
+  width: 100%;
+  position: relative;
+}
+
+.main-menu-wrap3 > .main-menu-image3{
+  width: 100%;
+}
+
+.main-menu-wrap3 > .menu-txt{
+
+  position: absolute;
+  top:-50px;
+  left: 20px;
+
+}
+
+.main-menu-wrap3 > .menu-txt > h6{
+
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -1px;
+
+}
+
+.main-menu-wrap3 > .main-menu-image3 > .img-box{
+  margin-top: 180px;
+  width: 100%;
+  padding-bottom: 45%;
+  
+}
+
+.main-text-wrap3{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.main-text-wrap3 > .main-text3{
+
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+.main-text-wrap3 > .main-text3 > h1{
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -1px;
+
+}
+
+.main-text-wrap3 > .main-text3 > h3{
+  font-weight: thin;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  
+}
+
+.main-text-wrap3 > .main-text3 > h6{
+  margin-top: 10px;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.main-text-wrap3 > .btn-box{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+
+.main-text-wrap3 > .btn-box > .buy-btn3{
   width: 110px;
   height: 45px;
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 25px;
   background-color: black;
-  transform: translate(-1%,-50%);
-  left: 50%;
   color: white;
   text-align: center;
   line-height: 45px;
-  position: absolute;
   cursor: pointer;
   z-index: 9999;
+  margin-right: 10px;
+}
+
+.main-text-wrap3 > .btn-box > .more-btn2{
+  width: 180px;
+  height: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.main-menu-wrap4{
+  width: 100%;
+  margin-top: -80px;
+}
+
+.main-menu-wrap4 > .main-menu-image4{
+  width: 100%;
+
+}
+
+.main-menu-wrap4 > .main-menu-image4 > .img-box{
+  margin-top: 180px;
+  width: 100%;
+  padding-bottom: 45%;
+}
+
+
+.main-text-wrap4{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.main-text-wrap4 > .main-text4{
+
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+.main-text-wrap4 > .main-text4 > h1{
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -1px;
+
+}
+
+.main-text-wrap4 > .main-text4 > h3{
+  font-weight: thin;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  
+}
+
+.main-text-wrap4 > .main-text4 > h6{
+  margin-top: 10px;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.main-text-wrap4 > .btn-box{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+
+.main-text-wrap4 > .btn-box > .buy-btn4{
+  width: 110px;
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+  z-index: 9999;
+  margin-right: 10px;
 }
