@@ -82,16 +82,28 @@ margin-right: 10px;
     margin-right: 20px;
     line-height: 35px;
     font-size: 12px;
+    position: relative;
 }
 
-/* .top-bar-wrap > .top-bar > .top-bar-right > .text > ul > li::after{
+.top-bar-wrap > .top-bar > .top-bar-right > .text > ul > li::after{
     content: "";
     display: block;
-    position: absolute;
-    right:0;
+    width: 1px;
     background-color: black;
-    height: 1px;
-} */
+    height: 10px;
+    position: absolute;
+    top:50%;
+    left: 60px;
+    transform: translateY(-50%);
+}
+
+.top-bar-wrap > .top-bar > .top-bar-right > .text > ul > li:nth-child(3):after{
+  display: none;
+}
+
+.top-bar-wrap > .top-bar > .top-bar-right > .text > ul > li:nth-child(1):after{
+left: 57px;
+}
 
 /* .top-bar-wrap > .top-bar > .top-bar-right > .text > ul > li:nth-child(3){
     border-right: 0;
@@ -113,7 +125,11 @@ margin-right: 10px;
 
 
 .top-menu-wrap > .top-menu > .top-menu-left{
-    
+    width: 6%;
+    padding-bottom: 5%;
+    position: absolute;
+    left: 5%;
+    top: 7px;
 }
 
 .top-menu-wrap > .top-menu > .top-menu-mid{
@@ -210,6 +226,13 @@ margin-right: 10px;
   z-index: 9999;
 }
 
+.main-text-wrap > .buy-btn:hover{
+
+  transition: 0.5s;
+  opacity: 0.8;
+
+}
+
 .main-menu-wrap2{
   width: 100%;
 }
@@ -266,32 +289,48 @@ margin-right: 10px;
 
 
 .main-text-wrap2 > .btn-box > .buy-btn2{
-  width: 110px;
-  height: 45px;
+  width: 105px;
+  height: 40px;
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 25px;
   background-color: black;
   color: white;
   text-align: center;
-  line-height: 45px;
+  line-height: 40px;
   cursor: pointer;
   z-index: 9999;
   margin-right: 10px;
+  font-size: 15px;
+}
+
+
+.main-text-wrap2 > .btn-box > .buy-btn2:hover{
+
+  transition: 0.5s;
+  opacity: 0.8;
+
 }
 
 .main-text-wrap2 > .btn-box > .more-btn{
-  width: 110px;
-  height: 45px;
+  width: 105px;
+  height: 40px;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 25px;
   background-color: black;
   color: white;
   text-align: center;
-  line-height: 45px;
+  line-height: 40px;
   cursor: pointer;
   z-index: 9999;
+}
+
+.main-text-wrap2 > .btn-box > .more-btn:hover{
+
+  transition: 0.5s;
+  opacity: 0.8;
+
 }
 
 .main-menu-wrap3{
@@ -368,32 +407,48 @@ margin-right: 10px;
 
 
 .main-text-wrap3 > .btn-box > .buy-btn3{
-  width: 110px;
-  height: 45px;
+  width: 105px;
+  height: 40px;
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 25px;
   background-color: black;
   color: white;
   text-align: center;
-  line-height: 45px;
+  line-height: 40px;
   cursor: pointer;
   z-index: 9999;
   margin-right: 10px;
+  font-size: 15px;
+}
+
+.main-text-wrap3 > .btn-box > .buy-btn3:hover{
+
+  transition: 0.5s;
+  opacity: 0.8;
+
 }
 
 .main-text-wrap3 > .btn-box > .more-btn2{
-  width: 180px;
-  height: 45px;
+  width: 160px;
+  height: 40px;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 25px;
   background-color: black;
   color: white;
   text-align: center;
-  line-height: 45px;
+  line-height: 40px;
   cursor: pointer;
   z-index: 9999;
+  letter-spacing: -1px;
+}
+
+.main-text-wrap3 > .btn-box > .more-btn2:hover{
+
+  transition: 0.5s;
+  opacity: 0.8;
+
 }
 
 .main-menu-wrap4{
@@ -430,7 +485,7 @@ margin-right: 10px;
 .main-text-wrap4 > .main-text4 > h1{
   font-weight: bold;
   font-size: 40px;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
 
 }
 
@@ -444,7 +499,7 @@ margin-right: 10px;
 .main-text-wrap4 > .main-text4 > h6{
   margin-top: 10px;
   font-size: 20px;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
 }
 
 .main-text-wrap4 > .btn-box{
@@ -455,16 +510,310 @@ margin-right: 10px;
 
 
 .main-text-wrap4 > .btn-box > .buy-btn4{
-  width: 110px;
-  height: 45px;
+  width: 105px;
+  height: 40px;
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 25px;
   background-color: black;
   color: white;
   text-align: center;
-  line-height: 45px;
+  line-height: 40px;
   cursor: pointer;
   z-index: 9999;
   margin-right: 10px;
+  font-size: 15px;
+}
+
+.main-text-wrap4 > .btn-box > .buy-btn4:hover{
+
+  transition: 0.5s;
+  opacity: 0.8;
+
+}
+
+.main-menu-wrap5{
+  width: 100%;
+  margin-top: -80px;
+}
+
+.main-menu-wrap5 > .main-menu-image5{
+  width: 100%;
+
+}
+
+.main-menu-wrap5 > .main-menu-image5 > .img-box{
+  margin-top: 180px;
+  width: 100%;
+  padding-bottom: 45%;
+}
+
+.main-text-wrap5{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.main-text-wrap5 > .main-text5{
+
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+.main-text-wrap5 > .main-text5 > h1{
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -2px;
+
+}
+
+.main-text-wrap5 > .main-text5 > h3{
+  font-weight: thin;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  
+}
+
+.main-text-wrap5 > .main-text5 > h6{
+  margin-top: 10px;
+  font-size: 20px;
+  letter-spacing: -2px;
+}
+
+.main-text-wrap5 > .btn-box{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+
+.main-text-wrap5 > .btn-box > .buy-btn5{
+  width: 105px;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  z-index: 9999;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.main-text-wrap5 > .btn-box > .buy-btn5:hover{
+
+  transition: 0.5s;
+  opacity: 0.8;
+
+}
+
+.main-menu-wrap6{
+  width: 100%;
+  margin-top: -80px;
+}
+
+.main-menu-wrap6 > .main-menu-image6{
+  width: 100%;
+
+}
+
+.main-menu-wrap6 > .main-menu-image6 > .img-box{
+  margin-top: 180px;
+  width: 100%;
+  padding-bottom: 45%;
+}
+
+.main-text-wrap6{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+}
+
+.main-text-wrap6 > .main-text6{
+
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+.main-text-wrap6 > .main-text6 > h1{
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -2px;
+
+}
+
+.main-text-wrap6 > .main-text6 > h3{
+  font-weight: thin;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  
+}
+
+.main-text-wrap6 > .main-text6 > h6{
+  margin-top: 10px;
+  font-size: 20px;
+  letter-spacing: -2px;
+}
+
+.main-text-wrap6 > .btn-box{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+
+.main-text-wrap6 > .btn-box > .buy-btn6{
+  width: 105px;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  z-index: 9999;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.main-text-wrap6 > .btn-box > .buy-btn6:hover{
+
+  transition: 0.5s;
+  opacity: 0.8;
+
+}
+
+.main-menu-wrap7{
+  width: 100%;
+  
+}
+
+.main-menu-wrap7 > .menu-txt{
+  margin-top: 110px;
+}
+
+.main-menu-wrap7 > .menu-txt > h6{
+  letter-spacing: -1px;
+  font-size: 25px;;
+  font-weight: 550;
+
+
+}
+
+
+.main-menu-wrap7 > .trend-img-wrap{
+  width: 100%;
+  margin-top:20px;
+}
+
+.main-menu-wrap7 > .trend-img-wrap > .img-left{
+  width: 47%;
+  padding-bottom: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 2%;
+  position: relative;
+}
+
+.main-menu-wrap7 > .trend-img-wrap > .img-left > .img-txt{
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
+
+.main-menu-wrap7 > .trend-img-wrap > .img-left > .img-txt > h6{
+  font-size: 20px;
+  letter-spacing: -3px;
+  color: white;
+}
+
+.main-menu-wrap7 > .trend-img-wrap > .img-left > .btn-box{
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+}
+
+
+.main-menu-wrap7 > .trend-img-wrap > .img-left > .btn-box > .buy-btn7{
+  width: 105px;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  z-index: 9999;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.main-menu-wrap7 > .trend-img-wrap > .img-left > .btn-box > .buy-btn7:hover{
+
+  transition: 0.3s;
+  opacity: 0.7;
+
+}
+
+.main-menu-wrap7 > .trend-img-wrap > .img-right{
+  width: 47%;
+  padding-bottom: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main-menu-wrap7 > .trend-img-wrap > .img-right > .img-txt{
+  position: absolute;
+  bottom: 15%;
+  left: 10%;
+}
+
+.main-menu-wrap7 > .trend-img-wrap > .img-right > .img-txt > h6{
+  font-size: 20px;
+  letter-spacing: -3px;
+  color: white;
+}
+
+.main-menu-wrap7 > .trend-img-wrap > .img-right > .btn-box{
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+}
+
+
+.main-menu-wrap7 > .trend-img-wrap > .img-right > .btn-box > .buy-btn7{
+  width: 105px;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  z-index: 9999;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.main-menu-wrap7 > .trend-img-wrap > .img-right > .btn-box > .buy-btn7:hover{
+
+  transition: 0.3s;
+  opacity: 0.7;
+
 }
