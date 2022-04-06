@@ -7,6 +7,13 @@
     <title>Document</title>
 
     <!-- 제이쿼리자리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- 외부 js 라이브러리 // 웹폰트 // 폰트어썸 -->
 
 
@@ -106,8 +113,13 @@
     <div class="menu-txt">
         <h6>이번 주 스타일링</h6>
     </div>
-    <div class="main-menu-image3 animation con">
-        <div class="img-box" style="background-image: url(./img/220315_hp_p4_bg.jpg);"></div>
+    <div class="slide">
+    <div class="main-menu-image3 animation con row">
+        <div class="img-box cell" style="background-image: url(./img/220315_hp_p4_bg.jpg);"></div>
+  </div>
+    <div class="main-menu-image3 animation con row">
+        <div class="img-box cell" style="background-image: url(./img/220315_hp_p4_bg.jpg);"></div>
+   </div>
        
     </div>
 </div>
@@ -200,10 +212,12 @@
     <div class="menu-txt con">
     <h6>Trending Now</h6>
 </div>
-    <div class="trend-img-wrap row con">
-    <div class="img-left cell" style="background-image: url(./img/220325_hp_p6_bg1.jpg);">
+    <div class="trend-img-wrap con row">
+        <div class="img-wrap cell">
+    <div class="img-left" style="background-image: url(./img/220325_hp_p6_bg1.jpg);">
         
 
+        <div class="txt-box">
         <div class="img-txt">
             <h6>나이키 캠퍼스 팩</h6>
         </div>
@@ -212,11 +226,13 @@
                 구매하기
             </div>
         </div>
-        
     </div>
-
-    <div class="img-right cell"  style="background-image: url(./img/220325_hp_p6_bg2.jpg);">
+    </div>
+    </div>
+    <div class="img-wrap2 cell">
+    <div class="img-right"  style="background-image: url(./img/220325_hp_p6_bg2.jpg);">
     
+        <div class="txt-box">
         <div class="img-txt">
             <h6>에어룸 패치워크</h6>
         </div>
@@ -225,7 +241,8 @@
                 구매하기
             </div>
         </div>
-    
+        </div>
+    </div>
     </div>
 
 
@@ -233,6 +250,12 @@
 </div>
 
 </div>
+
+<div class="main-text-wrap8">
+    <h6>Featured Shoes</h6>
+</div>
+
+
 
 </body>
 </html>
