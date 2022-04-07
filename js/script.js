@@ -1,7 +1,13 @@
 $(document).ready(function(){
 
     $(".top-menu-wrap > .top-menu > .top-menu-mid > ul > li").mouseover(function(){
-        $(".top-menu-wrap > .top-menu > .top-menu-mid > ul > li").addClass("active")
+
+        let indexNum = $(this).index()
+        $(this).addClass("active")
+        // $(this).siblings().removeClass("active")
+    })
+    $(".top-menu-wrap > .top-menu > .top-menu-mid > ul > li").mouseleave(function(){
+        $(".top-menu-wrap > .top-menu > .top-menu-mid > ul > li").removeClass("active")
     })
 
 
@@ -15,5 +21,11 @@ $(document).ready(function(){
         pauseOnHover: false ,
         slideToShow: 1,
     })
+
+    $(".slider").slick({
+        autoplay : false ,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      })
 
 })
