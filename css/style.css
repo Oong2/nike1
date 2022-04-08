@@ -276,6 +276,11 @@ left: 57px;
   position: relative;
 }
 
+.main-menu-wrap2 > .main-menu-image2 > .video{
+  width: 100%;
+  margin-top: 150px;
+}
+
 .main-menu-wrap2 > .main-menu-image2 > .img-box{
   margin-top: 180px;
   width: 100%;
@@ -1086,6 +1091,7 @@ left: 57px;
   font-size: 11px;
   margin-right: 20px;
   opacity: 0.5;
+  
 }
 
 
